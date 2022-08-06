@@ -1,0 +1,269 @@
+
+/* BODY  */
+
+* {
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+/* HEADER */
+
+h1 {
+    position: absolute;
+    width: 1728px;
+    height: 48px;
+    left: 0px;
+    top: 10px;
+    text-align: left;
+    padding-left: 450px;
+    font-size: 1.5rem;
+    
+    background: transparent;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.icon {
+    position: absolute;
+    width: 1728px;
+    height: 48px;
+    left: 420px;
+    top: 15px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.185);
+}
+
+/* MAIN */
+
+.main {
+    width: 714px;
+    height: 200px;
+    background: #2E0039;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+
+
+h2 {
+    background-color: transparent;
+    position: absolute;
+    width: 104px;
+    height: 35px;
+    left: 460px;
+    top: 130px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#input {
+    background-color: transparent;
+    position: absolute;
+    width: 200px;
+    height: 17px;
+    left: 450px;
+    top: 190px;
+    border-color: #FFFFFF;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+
+#conversion {
+    background-color: transparent;
+    position: absolute;
+    width: 220px;
+    height: 17px;
+    left: 859px;
+    right: 100px;
+    top: 190px;
+    border-color: #FFFFFF;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+
+.arrows {
+    position: absolute;
+    width: 1728px;
+    height: 48px;
+    left: 680px;
+    top: 190px;
+
+    background-color: transparent;
+    color: white;
+}
+
+.saved {
+    position: absolute;
+    left: 460px;
+    right: 13.54%;
+    top: 240px;
+    bottom: 17.71%;
+    
+    background: transparent;
+    color: white;
+}
+
+#select1 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 650px;
+    top: 190px;
+    background-color: transparent;
+    color: white;
+
+    border: transparent;
+
+}
+
+option {
+    background-color: transparent;
+    color: black;
+}
+
+h3{
+    position: absolute;
+    width: 63px;
+    height: 30px;
+    left: 950px;
+    top: 233px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+}
+
+/* SAVED LIST */
+
+.saved-txt {
+    position: absolute;
+    width: 200px;
+    height: 26px;
+    left: 405px;
+    top: 378px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #676767;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    line-height: 80px;
+    margin-top: 430px;
+    padding-left: 40px;
+    padding-top: 10px;
+    background: #E3E3E3;
+    box-shadow: none;
+    border-radius: 10px; 
+}
+
+#left {
+    width: 255px;
+    margin-left: 400px;
+}
+
+#right {
+    width: 255px;
+    margin-left: 100px;
+}
+
+#left i {
+    margin-right: 100px;
+    margin-left: 60px;
+}
+
+#right i {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+/* FOOTER */
+
+.footer {
+    position: absolute;
+    width: 1728px;
+    height: 39px;
+    left: 0px;
+    top: 900px;
+    
+    background: #2E0039;
+}
+
+.terms{
+    position: absolute;
+    align-items: center;
+    padding-left: 550px;
+    padding-top: 5px;
+    color: white;
+    font-weight: 200;
+}
+
+.privacy {
+    position: absolute;
+    align-items: center;
+    padding-left: 800px;
+    padding-top: 5px;
+    color: white;
+    font-weight: 200;
+}
+
+@media screen (min-width: 320px) {
+    body {
+        position: relative;
+        width: 390px;
+        height: 844px;
+
+        background: #FFFFFF;
+    }
+
+    .main {
+        position: absolute;
+        width: 349px;
+        height: 209px;
+        left: 21px;
+        top: 71px;
+        
+        background: #2E0039;
+        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+        border-radius: 21px;
+    }
+
+    #input {
+        padding-left: 10px;
+    }
+}

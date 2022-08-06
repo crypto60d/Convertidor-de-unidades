@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Unidades</title>
+    <link rel="stylesheet" href="/Convertidor de unidades/index.css">
+    <script src="https://kit.fontawesome.com/a6c4d17e5b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Header -->
+    
+    <div class="icon">
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+    </div>
+        <h1>unit converter</h1>
+    
+        
+    <!-- Main -->
+    
+    <div class="main"></div>
+        <h2>convert</h2>
+        <input type="text" placeholder="input" id="input">
+        <div class="arrows" id="arrows">
+            <i class="fa-solid fa-arrow-right-arrow-left" onclick="convert()"></i>
+        </div>
+        <input type="text" placeholder="conversion" id="conversion">
+
+        <select id="select1">
+            <i class="fa-regular fa-angle-down"></i>
+            <option value="kilometers" id="km">kilometers to miles</option>
+            <option value="miles" id="miles">miles to kilometer</option>
+            <option value="foot" id="foot">foot to meters</option>
+            <option value="meters" id="meters">meters to foot</option>
+            <option value="centimeters" id="cm">centimeters to inches</option>
+            <option value="inches" id="inches">inches to centimeters</option>
+        </select>
+
+
+        <div class="saved">
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    
+        <div class="result">
+            <h3>result here</h3>
+        </div>
+
+    </div>
+
+    <!-- Saved List-->
+
+        <p class="saved-txt">saved</p>
+
+    <ul id="left">
+        <li>saved<i class="fa-solid fa-xmark"></i> </li>
+        <li>favourites<i class="fa-solid fa-xmark"></i></li>
+        <li>saved<i class="fa-solid fa-xmark"></i></li>
+        <li>fav<i class="fa-solid fa-xmark"></i></li>
+    </ul>
+    <ul id="right">
+        <li>dsff<i class="fa-solid fa-xmark"></i></li>
+        <li>sfsgsgs<i class="fa-solid fa-xmark"></i></li>
+        <li>ssfsf<i class="fa-solid fa-xmark"></i></li>
+        <li>safbdf<i class="fa-solid fa-xmark"></i></li>
+    </ul>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <h4 class="terms">Terms of service</a></h4>
+        <h4 class="privacy">Privacy policy</h4>
+    </div>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+</body>
+</html>
